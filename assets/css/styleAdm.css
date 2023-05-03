@@ -1,0 +1,31 @@
+.admin-h1 {
+  text-align: center;
+  color: #0A5C35;
+}
+.admin {
+  max-width: 250px;
+  margin: auto;
+  margin-top: 150px;
+}
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid #C2FF71;
+    padding: 5px 10px;
+}
+.admin-form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #C2FF71;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 30px;
+}
+label {
+    color: #0A5C35;
+}
